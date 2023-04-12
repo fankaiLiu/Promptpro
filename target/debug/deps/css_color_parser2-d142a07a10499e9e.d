@@ -1,0 +1,10 @@
+/Users/liufankai/Desktop/code/ai/Promptpro/target/debug/deps/css_color_parser2-d142a07a10499e9e.rmeta: /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/lib.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/color/mod.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/color/color.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/color/named_colors.rs
+
+/Users/liufankai/Desktop/code/ai/Promptpro/target/debug/deps/libcss_color_parser2-d142a07a10499e9e.rlib: /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/lib.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/color/mod.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/color/color.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/color/named_colors.rs
+
+/Users/liufankai/Desktop/code/ai/Promptpro/target/debug/deps/css_color_parser2-d142a07a10499e9e.d: /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/lib.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/color/mod.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/color/color.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/color/named_colors.rs
+
+/Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/lib.rs:
+/Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/color/mod.rs:
+/Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/color/color.rs:
+/Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/css-color-parser2-1.0.1/src/color/named_colors.rs:

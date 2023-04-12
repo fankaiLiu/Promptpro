@@ -1,0 +1,12 @@
+/Users/liufankai/Desktop/code/ai/Promptpro/target/debug/deps/cocoa-4f8d2185f379e59b.rmeta: /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/lib.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/appkit.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/base.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/foundation.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/quartzcore.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/macros.rs
+
+/Users/liufankai/Desktop/code/ai/Promptpro/target/debug/deps/libcocoa-4f8d2185f379e59b.rlib: /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/lib.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/appkit.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/base.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/foundation.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/quartzcore.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/macros.rs
+
+/Users/liufankai/Desktop/code/ai/Promptpro/target/debug/deps/cocoa-4f8d2185f379e59b.d: /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/lib.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/appkit.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/base.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/foundation.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/quartzcore.rs /Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/macros.rs
+
+/Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/lib.rs:
+/Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/appkit.rs:
+/Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/base.rs:
+/Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/foundation.rs:
+/Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/quartzcore.rs:
+/Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/cocoa-0.24.1/src/macros.rs:

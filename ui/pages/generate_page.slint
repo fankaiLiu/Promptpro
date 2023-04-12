@@ -1,0 +1,64 @@
+// Copyright © SixtyFPS GmbH <info@slint-ui.com>
+// SPDX-License-Identifier: GPL-3.0-only OR LicenseRef-Slint-commercial
+
+import { Button, GroupBox, SpinBox, ComboBox, CheckBox, LineEdit, TabWidget, VerticalBox, HorizontalBox,
+    Slider, SpinBox } from "std-widgets.slint";
+import { GallerySettings } from "../gallery_settings.slint";
+import { Page } from "page.slint";
+import {TextEdit } from "std-widgets.slint";
+
+export global GeneratePageAdapter  { 
+    in-out property<string> prompts: "";
+    in-out property <string> key_words: "";
+    callback generate();
+}
+export component GeneratePage inherits Page {
+    title: "Enter a topic keyword and click the button";
+    height: 100%;
+    GroupBox {  
+        title: "key words";
+        vertical-stretch: 0;
+        height: 50px;
+
+        LineEdit {
+            text<=>GeneratePageAdapter.key_words;
+            placeholder-text: "Enter some text";
+            enabled: !GallerySettings.widgets-disabled;
+        }
+    }
+    GroupBox { 
+        vertical-stretch: 0;
+        title: "config";
+        height: 50px;
+        HorizontalLayout {  
+            spacing: 8px;
+            alignment: start;
+            Button {
+                text: "run";
+                icon: @image-url("../../logo.png");
+                clicked => {
+                    GeneratePageAdapter.generate();
+                }
+                enabled: !GallerySettings.widgets-disabled;
+            }
+            ComboBox {
+                model: ["default"];
+                enabled: !GallerySettings.widgets-disabled;
+            }
+        }
+    }
+
+
+    HorizontalBox {   
+        GroupBox {
+            vertical-stretch: 0;
+            title: "output";
+            te1 := TextEdit {
+                min-width: 400px;
+                text: GeneratePageAdapter.prompts;
+                wrap: word-wrap;
+                enabled: !GallerySettings.widgets-disabled;
+            }
+        }
+    }
+}

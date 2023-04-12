@@ -1,0 +1,25 @@
+// Copyright © SixtyFPS GmbH <info@slint-ui.com>
+// SPDX-License-Identifier: GPL-3.0-only OR LicenseRef-Slint-commercial
+
+import { CheckBox, StandardListView, StyleMetrics } from "std-widgets.slint";
+import { AboutPage, GeneratePage, GeneratePageAdapter } from "ui/pages/pages.slint";
+import { GallerySettings } from "ui/gallery_settings.slint";
+import { SideBar } from "ui/side_bar.slint";
+
+export { GeneratePageAdapter}
+
+component App inherits Window {
+    preferred-width: 700px;
+    preferred-height: 500px;
+    title: "Prompt Pro";
+    icon: @image-url("./logo.png");
+
+    HorizontalLayout {  
+        side-bar := SideBar {  
+            title: "Prompt Pro";
+            model: ["Generate","About"];
+        }
+        if(side-bar.current-item == 0) : GeneratePage {}
+        if(side-bar.current-item == 1) : AboutPage {}
+    }
+}
