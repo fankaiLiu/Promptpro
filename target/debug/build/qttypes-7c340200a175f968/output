@@ -1,6 +1,0 @@
-cargo:rerun-if-env-changed=QT_INCLUDE_PATH
-cargo:rerun-if-env-changed=QT_LIBRARY_PATH
-cargo:rerun-if-env-changed=QMAKE
-cargo:rustc-cfg=no_qt
-cargo:FOUND=0
-cargo:ERROR_MESSAGE=Failed to execute qmake. Make sure \'qmake\' is in your path!\nentity not found

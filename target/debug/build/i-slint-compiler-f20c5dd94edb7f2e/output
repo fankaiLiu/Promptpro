@@ -1,3 +1,0 @@
-cargo:rerun-if-env-changed=RUST_FONTCONFIG_DLOPEN
-cargo:rerun-if-changed=/Users/liufankai/.cargo/registry/src/github.com-1ecc6299db9ec823/i-slint-compiler-1.0.0/widgets
-cargo:rustc-env=SLINT_WIDGETS_LIBRARY=/Users/liufankai/Desktop/code/ai/Promptpro/target/debug/build/i-slint-compiler-f20c5dd94edb7f2e/out/included_library.rs

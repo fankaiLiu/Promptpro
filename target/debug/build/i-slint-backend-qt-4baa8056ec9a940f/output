@@ -1,4 +1,0 @@
-cargo:rerun-if-env-changed=SLINT_NO_QT
-cargo:rustc-cfg=no_qt
-cargo:warning=Could not find a Qt installation. The Qt backend will not be functional. See https://github.com/slint-ui/slint/blob/master/docs/install_qt.md for more info
-cargo:warning=    Failed to execute qmake. Make sure \'qmake\' is in your path!\nentity not found
