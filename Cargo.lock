@@ -365,6 +365,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3d7b894f5411737b7867f4827955924d7c254fc9f4d91a6aad6b097804b1018b"
 
 [[package]]
+name = "console_error_panic_hook"
+version = "0.1.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a06aeb73f470f66dcdbf7223caeebb85984942f22f1adb2a088cf9668146bbbc"
+dependencies = [
+ "cfg-if 1.0.0",
+ "wasm-bindgen",
+]
+
+[[package]]
 name = "const-cstr"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1988,12 +1998,16 @@ dependencies = [
 name = "promptpro"
 version = "1.0.0"
 dependencies = [
+ "console_error_panic_hook",
+ "getrandom",
  "once_cell",
  "rand",
  "serde",
  "slint",
  "slint-build",
  "toml",
+ "wasm-bindgen",
+ "web-sys",
 ]
 
 [[package]]

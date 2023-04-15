@@ -1,9 +1,0 @@
-must_appear = ["UHD", "4K", "ccurate", "anatomically correct"]
-may_appear = { cinematiclighting = 50, chiaroscuro = 50, glowing0light = 50, backlighting = 50 }
-pick_one = [
-    { Impressionism = 1, Ghibli-like0colours = 1, anime0style = 1, Minimalism = 1, Art0Deco = 1, rococo0style = 1, blind0box0toy0style = 1, Tonalism = 1 },
-    { reference0sheet = 1, tachi-e = 1, zoom0layer = 1, projected0inset = 1 },
-    { facial_expression = 1, makeup = 1, food_on_face = 1, smelling = 1, nosebleed = 1, clenched_teeth = 1, open_mouth = 1, pout = 1, sigh = 1, smile = 1, light_smile = 1, angry = 1, evil_smile = 1, grin = 1, annoyed = 1, tongue = 1, no_nose = 2, saliva = 1, fingersmile = 1, facial_hair = 1, mouth_hold = 1, tongue_out = 1, licking_lips = 1, grimace = 1, serious = 2, bored = 1, nervous = 1, spit_take = 1, heavy_breathing = 1, saliva_trail = 1, red_lips = 1, fang = 1, upper_teeth = 1, kubrick_stare = 1 },
-    { crazy_eyes = 1, multicolored_eyes = 1, gradient_eyes = 1, aqua_eyes = 1, glowing_eyes = 2, streaming_tears = 2 },
-    { multicolored_hair = 1, colored_inner_hair = 1, streaked_hair = 1, blonde_hair = 1, silver_hair = 1, black_hair = 1, blue_hair = 1, dark_blue_hair = 1, gradient_hair = 1, ahoge = 1, rainbow_hair = 1, bangs = 1, french_braid = 1, quad_drills = 1, drill_hair = 1, hair_behind_ear = 1, hair_bun = 1, long_hair = 1, wavy_hair = 1, wet_hair = 1, long_braid = 1, comb_over = 1, spiked_hair = 1, heart_ahoge = 1, mohawk = 1, hair_scarf = 2 }
-]

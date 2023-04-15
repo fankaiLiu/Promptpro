@@ -3,7 +3,7 @@
 
 import { Button, GroupBox, SpinBox, ComboBox, CheckBox, LineEdit, TabWidget, VerticalBox, HorizontalBox,
     Slider, SpinBox } from "std-widgets.slint";
-import { GallerySettings } from "../gallery_settings.slint";
+// import { GallerySettings } from "../gallery_settings.slint";
 import { Page } from "page.slint";
 import {TextEdit } from "std-widgets.slint";
 
@@ -22,8 +22,8 @@ export component GeneratePage inherits Page {
 
         LineEdit {
             text<=>GeneratePageAdapter.key_words;
+            //text:"1";
             placeholder-text: "Enter some text";
-            enabled: !GallerySettings.widgets-disabled;
         }
     }
     GroupBox { 
@@ -39,11 +39,9 @@ export component GeneratePage inherits Page {
                 clicked => {
                     GeneratePageAdapter.generate();
                 }
-                enabled: !GallerySettings.widgets-disabled;
             }
             ComboBox {
                 model: ["default"];
-                enabled: !GallerySettings.widgets-disabled;
             }
         }
     }
@@ -57,7 +55,7 @@ export component GeneratePage inherits Page {
                 min-width: 400px;
                 text: GeneratePageAdapter.prompts;
                 wrap: word-wrap;
-                enabled: !GallerySettings.widgets-disabled;
+                // enabled: !GallerySettings.widgets-disabled;
             }
         }
     }
