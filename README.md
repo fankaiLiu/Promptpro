@@ -2,6 +2,7 @@
 # promptpro
 This is a small tool that generates AI prompts. Currently, it supports bulk random generation for MidJourney.
 Please place the config.toml in the same directory as the program's statistics directory
+Input some keywords, click generate, and it will generate some prompts
 ## About
 
 ## Usage
