@@ -19,7 +19,7 @@ To run it as a WebAssembly (wasm) module:
 ```
 cargo install wasm-pack
 //
-asm-pack build --target web --dev
+wasm-pack build --target web --dev
 // or wasm-pack build --release --target web
 // then
 python3 -m http.server
