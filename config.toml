@@ -1,0 +1,3 @@
+must_appear=["4K","Refined"]
+may_appear={Lovely=1,Colorful=2}
+pick_one=[]

@@ -18,7 +18,7 @@ name = "promptpro"
 once_cell = "1.17.1"
 rand = "0.8.5"
 serde = {version="1.0.159", features = ["derive"] }
-slint = "1.0"
+slint = "1.1.0"
 toml = "0.7.3"
 getrandom = { version = "0.2", features = ["js"] }
 
